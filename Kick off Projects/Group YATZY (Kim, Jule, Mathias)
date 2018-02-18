@@ -1,0 +1,14 @@
+while True:
+    import random
+    print("this is a yatzy game")
+    print("press enter to roll the dice")
+    input()
+    x=random.randint(1,6)
+    y=random.randint(1,6)
+    z=random.randint(1,6)
+    print("The number for the first dice is",x)
+    print("The number for the second dice is",y)
+    print("The number for the third dice is", z)
+
+    if x == y and x == z and y == z:
+        print("YAAAAAAAATZY")
